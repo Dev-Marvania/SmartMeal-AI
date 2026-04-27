@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Grilled Chicken Pita Wrap",
+    "restaurant": "The Wrap Co.",
+    "distance": "1.4 km",
+    "calories": 420,
+    "protein": 34,
+    "carbs": 45,
+    "fat": 12,
+    "tags": ["high-protein", "lunch", "dinner", "chicken"],
+    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80"
+  },
+  {
+    "id": "2",
+    "name": "Grilled Paneer Bowl",
+    "restaurant": "Healthy Bowls Co.",
+    "distance": "0.8 km",
+    "calories": 420,
+    "protein": 25,
+    "carbs": 35,
+    "fat": 15,
+    "tags": ["vegetarian", "lunch", "dinner", "spicy", "paneer", "bowl"],
+    "image": "https://images.unsplash.com/photo-1548943487-a2e4f43b4850?w=800&q=80"
+  },
+  {
+    "id": "3",
+    "name": "Greek Yogurt Parfait",
+    "restaurant": "Morning Buzz Cafe",
+    "distance": "2.1 km",
+    "calories": 280,
+    "protein": 20,
+    "carbs": 30,
+    "fat": 8,
+    "tags": ["sweet", "breakfast", "late-night", "vegetarian", "snack"],
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Eggs & Avocado Toast",
+    "restaurant": "The Brunch Club",
+    "distance": "1.2 km",
+    "calories": 450,
+    "protein": 22,
+    "carbs": 38,
+    "fat": 24,
+    "tags": ["breakfast", "high-protein", "vegetarian", "avocado"],
+    "image": "https://images.unsplash.com/photo-1525351484163-8a39d8e411b4?w=800&q=80"
+  },
+  {
+    "id": "5",
+    "name": "Zucchini Noodle Stir-fry",
+    "restaurant": "Wok This Way",
+    "distance": "3.0 km",
+    "calories": 310,
+    "protein": 15,
+    "carbs": 25,
+    "fat": 18,
+    "tags": ["low-carb", "dinner", "vegan", "noodles", "asian"],
+    "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&q=80"
+  },
+  {
+    "id": "6",
+    "name": "Lean Turkey Burger",
+    "restaurant": "Burger Fit",
+    "distance": "1.8 km",
+    "calories": 480,
+    "protein": 38,
+    "carbs": 42,
+    "fat": 16,
+    "tags": ["high-protein", "lunch", "dinner", "burger", "meat"],
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80"
+  },
+  {
+    "id": "7",
+    "name": "Quinoa Sushi Rolls",
+    "restaurant": "Zen Sushi",
+    "distance": "0.5 km",
+    "calories": 380,
+    "protein": 18,
+    "carbs": 55,
+    "fat": 10,
+    "tags": ["sushi", "lunch", "dinner", "pescatarian"],
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&q=80"
+  },
+  {
+    "id": "8",
+    "name": "Cauliflower Crust Pizza",
+    "restaurant": "Slice of Health",
+    "distance": "2.5 km",
+    "calories": 520,
+    "protein": 28,
+    "carbs": 60,
+    "fat": 22,
+    "tags": ["pizza", "dinner", "low-carb", "vegetarian"],
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80"
+  },
+  {
+    "id": "9",
+    "name": "Spicy Edamame Salad",
+    "restaurant": "Green Eats",
+    "distance": "1.1 km",
+    "calories": 250,
+    "protein": 18,
+    "carbs": 22,
+    "fat": 12,
+    "tags": ["salad", "vegan", "spicy", "snack", "lunch"],
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80"
+  },
+  {
+    "id": "10",
+    "name": "Salmon Poke Bowl",
+    "restaurant": "Aloha Bowls",
+    "distance": "1.7 km",
+    "calories": 550,
+    "protein": 32,
+    "carbs": 65,
+    "fat": 20,
+    "tags": ["pescatarian", "lunch", "dinner", "high-protein", "healthy"],
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80"
+  }
+]

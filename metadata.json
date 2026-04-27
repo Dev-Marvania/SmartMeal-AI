@@ -1,0 +1,6 @@
+{
+  "name": "SmartMeal AI",
+  "description": "A context-aware food recommendation system that uses AI to suggest healthy meals based on your craving, mood, and time of day.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
