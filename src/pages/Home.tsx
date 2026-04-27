@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Search, Frown, Moon, Hourglass, Smile, Clock, Utensils, CheckCircle, RefreshCcw, Flame } from 'lucide-react';
 import { useProfile } from '../hooks/useProfile';
 import { useHistory } from '../hooks/useHistory';
