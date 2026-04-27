@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { Search, Frown, Moon, Hourglass, Smile, Clock, Utensils, CheckCircle, RefreshCcw, Flame } from 'lucide-react';
 import { useProfile } from '../hooks/useProfile';
+import { useHistory } from '../hooks/useHistory';
 import { Meal } from '../types';
 
 export function Home() {
   const { profile } = useProfile();
+  const { addLog } = useHistory();
   const [craving, setCraving] = useState('');
   const [mood, setMood] = useState('');
   const [time, setTime] = useState('12:30');
@@ -30,6 +32,11 @@ export function Home() {
         return;
       }
       setResult(data);
+      addLog({
+        meal: data.meal,
+        reasoning: data.reasoning,
+        betterThan: data.betterThan,
+      });
     } catch (err) {
       console.error(err);
       alert('An error occurred. Please try again later.');
@@ -44,7 +51,7 @@ export function Home() {
     setMood('');
   };
 
-  if (result) {
+  if (result && result.meal) {
     return (
       <div className="flex flex-col items-center px-5 py-8 w-full">
         <div className="text-center mb-6">

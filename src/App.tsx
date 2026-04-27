@@ -9,6 +9,7 @@ import { Home } from './pages/Home';
 import { ProfileSetup } from './pages/ProfileSetup';
 import { Profile } from './pages/Profile';
 import { Stats } from './pages/Stats';
+import { Log } from './pages/Log';
 import { useProfile } from './hooks/useProfile';
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/log" element={<div className="p-8 text-center text-on-surface-variant text-lg">Log is coming soon!</div>} />
+          <Route path="/log" element={<Log />} />
         </Route>
       </Routes>
     </BrowserRouter>
